@@ -1,0 +1,31 @@
+baseURL: "http://example.org/"
+languageCode: "zh-CN"
+title: "Han's Hugo Website"
+theme: "PaperMod"
+
+# Profile information
+params:
+  homeInfoParams:
+    Title: "Han's Website"
+    Content: "Es mus sein! es mus sein!"
+  cover:
+    linkFullImages: true
+
+  ShowBreadCrumbs: true
+  ShowShareButtoms: true
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: "about"
+      name: "About"
+      url: "/about/"
+      weight: 10
+    - identifier: "tags"
+      name: "Tags"
+      url: "/tags/"
+      weight: 20
+    - identifier: "archives"
+      name: "Archives"
+      url: "/archives/"
+      weight: 20

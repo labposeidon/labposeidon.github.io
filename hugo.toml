@@ -1,9 +1,0 @@
-baseURL = 'http://example.org/'
-languageCode = 'zh-CN'
-title = '我的Hugo网站'
-theme = "PaperMod" 
-
-[params]
-    author = "labposeidon"
-    description = "我的个人博客网页"
-    profilePicture = "path/to/your/profile-picture.jpg"
